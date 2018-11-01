@@ -1,7 +1,7 @@
 
 # Selecting Data - Lab
 
-## Introduction 
+## Introduction
 
 NASA wants to go to Mars! Before they build their rocket, NASA needs to track information about all of the planets in the Solar System. Use SQL to help NASA create, alter, and insert data into a database that stores all of this important information. Then practice querying the database with various `SELECT` statements. We will select different columns, and employ other SQL clauses like `WHERE` to return the data we would like.
 
@@ -45,7 +45,7 @@ NASA is interested in comparing each planet across several characteristics.  The
 
 > **Notes:** Make sure to set the `id` column as the table's primary key.
 
-Now, create a sqlite database (lets call it planets.db), connect to it, and run the SQL from the create.sql file by reading it in and then executing it. 
+Now, create a sqlite database (lets call it planets.db), connect to it, and run the SQL from the create.sql file by reading it in and then executing it.
 
 > *Open up the hints.md file in this directory and look at hint # 1 if you need some help getting the database initialized and hint # 2 if you need some help figuring out how to read in the contents of the file *
 
@@ -156,4 +156,4 @@ def select_example_func():
 
 ## Summary
 
-Congratulations! NASA is one step closer to embarking upon its mission to Mars. In this lab, we created a table to track all the planets in the solar system, altered the table to include another column, inserted values to populate the table, and we deleted data from the table. Then we practiced writing select statements that query a single table to get specific information. We also used other clauses and specified column names to cherry pick the data we wanted to retrieve. 
+Congratulations! NASA is one step closer to embarking upon its mission to Mars. In this lab, we created a table to track all the planets in the solar system, altered the table to include another column, inserted values to populate the table, and we deleted data from the table. Then we practiced writing select statements that query a single table to get specific information. We also used other clauses and specified column names to cherry pick the data we wanted to retrieve.
